@@ -1,10 +1,10 @@
-import { GlobalStyles } from './styles/GlobalStyles';
+import React from 'react';
+import Box from './components/Box/box';
 
 const App = () => {
 	return (
 		<>
-			<GlobalStyles />
-			<h1>Núcleo de la aplicación</h1>
+			<Box />
 		</>
 	);
 };
